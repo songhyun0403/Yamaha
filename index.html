@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YAMAHA</title>
+    <!-- 우리 파일보다 항상 먼저 호출 -->
+    <link rel="stylesheet" href="./css/jquery.fullpage.min.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/jquery.fullpage.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/script.js"></script>
+  </head>
+  <!-- https://github.com/alvarotrigo/fullPage.js/tree/2.9.7 -->
+
+  <body>
+    <ul class="indicator">
+      <li data-menuanchor="section1" class="active">
+        <a href="#section1"><b>section1</b></a>
+      </li>
+      <li data-menuanchor="section2">
+        <a href="#section2"><b>section2</b></a>
+      </li>
+      <li data-menuanchor="section3">
+        <a href="#section3"><b>section3</b></a>
+      </li>
+      <li data-menuanchor="section4">
+        <a href="#section4"><b>section4</b></a>
+      </li>
+    
+    </ul>
+
+    <header id="header">
+      <div class="inner">
+        <nav>
+          <h1 class="logo"><i class="hidden">LOGO</i></h1>
+          <ul class="gnb">
+            <li data-menuanchor="section1"><a href="#section1">HOME</a></li>
+            <li data-menuanchor="section2"><a href="#section2">STORY</a></li>
+            <li data-menuanchor="section3"><a href="#section3">NEWS</a></li>
+            <li data-menuanchor="section4"><a href="#section4">PRODUCT</a></li>
+            <!-- <li data-menuanchor="footer"><a href="#footer">FOOTER</a></li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="fullpage">
+      <section class="section section1">
+        
+        </div>
+        <i class="hidden">
+          <h2>YAMAHA</h2>
+        </i>
+        <div class="video">
+          <iframe
+            data-autoplay
+            src="https://www.youtube.com/embed/CqYL0dadIcE?si=b9mTNajb7BPmmfJR?version=2&autoplay=1&autoplay=1&mute=1"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="section section2">
+        <div class="sec2-bg"><figure><img src="./img/story-visual.png" alt=""></figure></div>
+        <div class="inner">
+          <div class="sec2-con">
+            <h2 >STORY</h2>
+            <strong >YAMAHA</strong>
+            <p >
+              소리와 음악의 힘에 대한 믿음으로<br />
+              새로운 미래를 도전합니다.
+            </p>
+            <a href="#" class="more-btn"
+            ><span>More</span>
+              <div class="more-long"><b></b></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section3">
+        <div class="sec3-bg">
+        <figure>
+          <img src="./img/news-visual.png" alt="new 배경 이미지">
+        </figure>
+        </div>
+        <div class="inner">
+          <div class="sec3-con">
+            <h2>Update</h2>
+            <strong>NEWS</strong>
+            <p >
+              Let your soul sing make waves
+            </p>
+            <a href="#" class="more-btn"
+            ><span>More</span>
+              <div class="more-long"><b></b></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <ul class="news-card-list">
+            <li>
+              <dl>
+                <dt>Event</dt>
+                <dd>부산점 OPEN</dd>
+                <a href="#" class="card-more-btn">Go</a>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>News</dt>
+                <dd>채용공고 안내</dd>
+                <a href="#" class="card-more-btn">Go</a>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>Show</dt>
+                <dd>일렉기타 세미나</dd>
+                <a href="#" class="card-more-btn">Go</a>
+              </dl>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section4">
+
+        <div class="sec4-bg">
+          <figure>
+            <img src="./img/product-visual.jpg" alt="new 배경 이미지">
+          </figure>
+          </div>
+      
+        <div class="inner">
+          <div class="slider-wrap">
+            <div class="slider-con">
+              <h2>product</h2>
+              <p>피아노 최고의 음율</p>
+
+              <a href="#" class="more-btn"
+              ><span>More</span>
+                <div class="more-long"><b></b></div>
+              </a>
+            </div>
+            <div class="main-slider">
+              <div class="btn-wrap">
+                <button type="button" class="btn-prev">
+                  <i class="hidden">이전</i>
+                </button>
+                <button type="button" class="btn-next">
+                  <i class="hidden">다음</i>
+                </button>
+              </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>Piano</h4>
+                    <figure>
+                      <img src="./img/pro-piano.png" alt="피아노">
+                    </figure>
+                    </div>
+                  </a>
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>Keyboard</h4>
+                      <figure>
+                        <img src="./img/pro-keybord .png" alt="키보드">
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>Guitar and Bass</h4>
+                      <figure>
+                        <img src="./img/pro-guitar.png" alt="기타">
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>Drum</h4>
+                      <figure>
+                        <img src="./img/pro-drum.png" alt="드럼">
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>Brass and Woodwind</h4>
+                      <figure>
+                        <img src="./img/pro-trumpet.png" alt="트럼펫">
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>String</h4>
+                      <figure>
+                        <img src="./img/pro-String.png" alt="현악기">
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>Percussion</h4>
+                      <figure>
+                        <img src="./img/pro-Percussion.png" alt="타악기">
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>Synthesizer and music tool</h4>
+                      <figure>
+                        <img src="./img/pro-synthesizer.png" alt="신디사이저">
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>Headphones</h4>
+                      <figure>
+                        <img src="./img/pro-headphone.png" alt="헤드폰">
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>Audio</h4>
+                      <figure>
+                        <img src="./img/pro-audio.png" alt="오디오">
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>communication</h4>
+                      <figure>
+                        <img src="./img/pro-communication.png" alt=" 커뮤니케이션">
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                    <h4>Application</h4>
+                      <figure>
+                        <img src="./img/pro-Application.png" alt="어플리케이션">
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+              
+                
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+           
+          </div>
+        </div>
+      </section>
+      
+    </main>
+
+    <button type="button" class="btn-top">TOP</button>
+  </body>
+</html>

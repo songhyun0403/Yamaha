@@ -402,6 +402,8 @@ main > section.section4 {
   font-weight: bold;
   font-size: 1.5rem;
   cursor: pointer;
+
+  transition: 0.4s;
 }
 
 .indicator {
@@ -583,9 +585,49 @@ main > section.section4 {
   /* border: 1px solid #000; */
 }
 
-#fp-nav ul li,
-.fp-slidesNav ul li {
-  margin: 4px;
-  width: 16px;
-  height: 16px;
+.footer {
+  background: var(--main-color);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+
+  align-items: flex-start;
+  padding-top: 10rem;
+}
+
+.foot-service h6,
+.foot-yamaha-ko h6 {
+  font-weight: 600;
+  font-size: 2.8rem;
+  color: #fff;
+}
+
+.foot-service dl,
+.foot-yamaha-ko dl {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.foot-service dt,
+.foot-yamaha-ko dt {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.foot-service dd,
+.foot-yamaha-ko dd {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.f-logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+  margin-top: 8rem;
 }
